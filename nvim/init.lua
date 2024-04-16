@@ -12,4 +12,14 @@ require("insis").setup({
     formatter = "isort",
     format_on_save = true,
   },
+  bash = {
+    enable = true,
+    lsp = "bashls",
+    --  brew install shfmt
+    formatter = "shfmt",
+    format_on_save = false,
+  },
+  java = {
+    enable = true,
+  },
 })

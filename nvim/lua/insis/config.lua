@@ -72,7 +72,7 @@ local UserConfig = {
       prev = "<C-h>",
       next = "<C-l>",
       -- close current buffer
-      close = "<C-c>",
+      close = "<S-c>",
       -- close = "<leader>bc",
       -- close all left / right tabs
       close_left = "<leader>bh",
