@@ -124,7 +124,7 @@ local UserConfig = {
   cmp = {
     enable = true,
     -- enable copilot cmp
-    copilot = false,
+    copilot = true,
     -- run ':Copilot auth' for the first time
     keys = {
       confirm = "<CR>",

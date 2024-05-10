@@ -22,4 +22,7 @@ require("insis").setup({
   java = {
     enable = true,
   },
+  cmp = {
+    copilot = true,
+  },
 })

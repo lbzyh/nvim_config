@@ -18,6 +18,7 @@ if toggleterm and cfg and cfg.enable then
       end
     end,
     start_in_insert = true,
+    open_mapping = [[<c-\>]],
   })
 
   local Terminal = require("toggleterm.terminal").Terminal
