@@ -210,10 +210,10 @@ local UserConfig = {
       -- close window
       close = "<esc>",
       -- scrolling in preview window
-      preview_scrolling_up = "<S-k>",
-      preview_scrolling_down = "<S-j>",
-      preview_scrolling_left = "<S-h>",
-      preview_scrolling_right = "<S-l>",
+      preview_scrolling_up = "˚",
+      preview_scrolling_down = "∆",
+      preview_scrolling_left = "˙",
+      preview_scrolling_right = "¬",
     },
   },
 
@@ -521,7 +521,7 @@ local UserConfig = {
     numhl = false, -- Toggle with `:Gitsigns toggle_numhl`
     linehl = false, -- Toggle with `:Gitsigns toggle_linehl`
     word_diff = false, -- Toggle with `:Gitsigns toggle_word_diff`
-    current_line_blame = false, -- Toggle with `:Gitsigns toggle_current_line_blame`
+    current_line_blame = true, -- Toggle with `:Gitsigns toggle_current_line_blame`
   },
 
   ---@class MirrorConfig
