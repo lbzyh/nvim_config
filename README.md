@@ -20,3 +20,11 @@ nvm current # Should print "v22.14.0".
 npm -v # Should print "10.9.2".
 ```
 To enable jdtls, needs to install java with version >= 21
+## Install Font
+```
+brew install font-hack-nerd-font
+```
+Set up iTerm2
+Go to Settings -> Profiles -> Text
+* Check "Use built-in Powerline glyphs"
+* Set Font to "Hack Nerd Font Mono"
